@@ -36,7 +36,7 @@ Login with any credentials
 Press Start
 
 # General and Reverse Engineering
-The Procedure to connect and play on a server of Fo76 work this way:
+The procedure to connect and play on a server of Fo76 works this way:
 1. Login and receiving of Characters and Account Information 
 2. The Game connects to a websocket (/bps/pub/wsa) which handles the matchmaking and selection of the server which will be joined
 3. The Game receives from the WebSocket the Server IP, Port and PSK which will be used for the DTLS communication
