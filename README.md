@@ -45,7 +45,7 @@ The Procedure to connect and play on a server of Fo76 work this way:
 # Contributing
 Im currently not focussed on a specific game version. This repository was created and is working with game version 1.2.6.3
 The next steps are to reverse engineer the messages the game sends. If you did reverse engineer binaries before and want to help
-join the discord [discord](https://discord.gg/p8FXc9k) .
+join the [discord](https://discord.gg/p8FXc9k) .
 
 Current Points of interest are (v1.2.6.3):
 
