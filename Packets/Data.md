@@ -43,3 +43,76 @@ Note: Message Size is being calculated: (msgSize & 0x7FFF) - 3
 E-F Unknown
 
 Example: 0x01
+
+10 Unknown
+
+Example: 0x01
+
+Note: Is connected to the message size and the compressor
+
+11 Unknown
+
+Example: 0x00
+
+Note: Is connected to the message size and the compressor
+
+12 Unknown
+
+Example: 0x04
+
+Note: Is connected to the message size and the compressor
+
+13 Unknown
+
+Example: 0x04
+
+Note: Is connected to the message size and the compressor
+
+14-17 Unknown
+
+Example: 0x0
+
+18-1B Unknown
+
+Example: 0x0,0x0,0x0,0x0
+
+Note: Is being read as single bytes
+
+```
+  v6 = 0;
+  v7 = 0;
+  do
+  {
+    v8 = (unsigned __int8)BitMsgReader::ReadBits(v2, 8) << v7;
+    v7 += 8;
+    v6 |= v8;
+  }
+  while ( v7 < 32 );
+```
+
+1C-1F and 20-23 Unknown or snap-seq and base seq
+
+Example: 0x01, 0x0
+
+Note: Is being read as a pair and again as single
+
+24-27 compressed-size
+
+Example: 0x80000fcb
+
+Note: Size is being calculated by size & 0x7FFFFFFF
+
+28-2B uncompressed-size
+
+Example: 0x15f6
+
+Note: No calculation is being done here.
+
+2C-2D Component Count
+
+Example: 0x8F
+
+Note: Component Max Count is 1000
+
+2E-31 Unknown
+
