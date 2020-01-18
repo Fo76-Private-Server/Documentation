@@ -18,8 +18,28 @@ Example: 0x04
 
 2 Fragment Number
 
-Example: 00
+Example: 0x00
 
 Note: Fragment Number will only be read in the client if Fragment Count is > 0
 
+3-6 Unknown
 
+Example: 0xFFFFFFFF
+
+7 Unknown
+
+Example: 0x01
+
+8-B Unknown
+
+Example: 0x1
+
+C-D Message Size
+
+Example: 0x8006
+
+Note: Message Size is being calculated: (msgSize & 0x7FFF) - 3
+
+E-F Unknown
+
+Example: 0x01
