@@ -20,4 +20,6 @@ Example: 0x04
 
 Example: 00
 
-Note: Will only be read in the client if Fragment Count is > 0
+Note: Fragment Number will only be read in the client if Fragment Count is > 0
+
+
