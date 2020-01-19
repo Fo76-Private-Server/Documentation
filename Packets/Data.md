@@ -117,3 +117,5 @@ Note: Component Max Count is 1000
 2E-31 Unknown
 
 Example: 0xDCBF80
+
+Afterwards comes the compressed snapshot data
