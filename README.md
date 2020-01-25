@@ -49,11 +49,4 @@ join the [discord](https://discord.gg/p8FXc9k) .
 
 Current Points of interest are (v1.2.6.3):
 
-Search by ref for BitMsgReader::ReadBits
-
-Search by ref for BitMsg::WriteBits
-
-The two offsets from the [CommunicationLogger](https://github.com/Fo76-Private-Server/Tools/blob/master/CommunicationLogger/fo76_GameCommunication.js#L4) handle the
-DTLS encryption and decryption of the body. Good for setting breakpoints and general analysis.
-
-Reading of the Decrypted Message is currently being handled here 0x2E62D80
+Structure of the Snapshots and the structure of the data inside the compressed message head
