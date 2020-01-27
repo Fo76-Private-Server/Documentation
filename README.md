@@ -49,4 +49,6 @@ join the [discord](https://discord.gg/p8FXc9k) .
 
 Current Points of interest are (v1.2.6.3):
 
-Structure of the Snapshots and the structure of the data inside the compressed message head
+structure of the data inside the compressed message head
+
+reversing all 177 Snapshot Components @13321B0
