@@ -8,7 +8,7 @@ Table of Contents
 * [Contributing](#contributing)
 
 # Project Status
-Not usable. Currently only connects to the UDP Server
+Not usable. Currently only connects to the UDP Server and sends the first snapshot for debugging purposes
 
 # Requirements
 https://github.com/Fo76-Private-Server/WinHttpWrapper
@@ -44,11 +44,10 @@ The procedure to connect and play on a server of Fo76 works this way:
 
 # Contributing
 Im currently not focussed on a specific game version. This repository was created and is working with game version 1.2.6.3
-The next steps are to reverse engineer the messages the game sends. If you did reverse engineer binaries before and want to help
-join the [discord](https://discord.gg/p8FXc9k) .
+The next steps are to reverse engineer the messages the game sends. If you did reverse engineer binaries before and want to help join the [discord](https://discord.gg/p8FXc9k).
 
 Current Points of interest are (v1.2.6.3):
 
 structure of the data inside the compressed message head
 
-reversing all 177 Snapshot Components @13321B0
+reversing all [Snapshot Components](https://github.com/Fo76-Private-Server/Documentation/blob/master/Snapshot.md) @13321B0
