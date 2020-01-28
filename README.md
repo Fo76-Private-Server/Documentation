@@ -8,7 +8,7 @@ Table of Contents
 * [Contributing](#contributing)
 
 # Project Status
-Not usable. Currently only connects to the UDP Server and sends the first snapshot for debugging purposes
+Not usable. The game currently only connects to the UDP Server and receives the first snapshot for debugging purposes.
 
 # Requirements
 https://github.com/Fo76-Private-Server/WinHttpWrapper
